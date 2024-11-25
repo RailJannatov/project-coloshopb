@@ -1,6 +1,7 @@
 import "./App.css";
 import Arrivals from "./assets/components/arriwals/Arrivals";
 import Category from "./assets/components/category/Category";
+import Footer from "./assets/components/footer/Footer";
 import Header from "./assets/components/header/Header";
 import Products from "./assets/components/products/Products";
 import Slider from "./assets/components/slider/Slider";
@@ -12,7 +13,8 @@ function App() {
       <Slider />
       <Category />
       <Arrivals />
-      <Products/>
+      <Products />
+      <Footer />
     </div>
   );
 }

@@ -15,17 +15,6 @@ function Products() {
   return (
     <div className="container">
       <div className="product__wrapper my-10 grid  grid-cols-5 gap-10 text-center">
-        {/* <div className="product border-r-2 w-full">
-          <div className="product__img-wrapper w-full h-[250px]">
-            <img
-              src="./images/foto1.png"
-              className="object-fit w-full h-full"
-            />
-          </div>
-          <div className="product__title">sdncjnc</div>
-          <div className="product-price">$567</div>
-          <div className="product-addTo  text-white  font-semibold "><div className="mt-5 py-2 bg-red-500 inset-0  justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">ADD TO CARD</div></div>
-        </div>  */}
         {Array.isArray(products) ? (
           products.map((product) => (
             <div className="product group hover:shadow-2xl duration-500  border-r-2 w-full">
