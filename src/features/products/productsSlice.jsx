@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   products: [],
-  loading: false,
+  loading: true,
 };
 
 export const getProducts = createAsyncThunk("products", async () => {
