@@ -1,3 +1,10 @@
 .header-list > ul > li {
   padding-right: 3rem;
 }
+.filtered-arrival > div {
+  border: .5px solid rgb(213, 212, 212);
+  margin-right: 1px;
+  padding: 10px 40px;
+  font-size: large;
+  font-weight: 600;
+}
